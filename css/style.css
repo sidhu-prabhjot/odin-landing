@@ -2,6 +2,36 @@ body {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
-    text-align: center;
     font-family: 'Roboto', arial;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin: 8px;
+}
+
+.navbar_links {
+    margin-right: 32px;
+}
+
+.navbar_link {
+    margin-left: 24px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    transition: 0.1s;
+}
+
+.navbar_link:hover {
+    border-bottom: solid #e5e7eb 2px;
 }
